@@ -1,0 +1,6 @@
+/target/
+/storage/
+settings.xml
+.project
+.classpath
+/.settings/
