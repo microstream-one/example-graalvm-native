@@ -21,3 +21,5 @@ If the installation fails because an other .Net runtime ist already installed, c
 just run graalvm-native-03.00.00-MS-GA-jar-with-dependencies.exe
 
 
+## building with GraalVM Java 11 SDK
+Building a native image with GraalVM for Java 11 currently requires the nightly build GraalVM CE 20.2.0-dev-20200716_0203 or later
