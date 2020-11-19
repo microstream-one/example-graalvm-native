@@ -1,5 +1,14 @@
 [
 {
+  "name":"one.microstream.afs.nio.NioReadableFile$Default[]"
+},
+{
+  "name":"one.microstream.memory.sun.JdkInternals$ObjectHeaderSizeDummy",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "fields" : [ { "name" : "calculateByteSizeObjectHeaderFieldOffsetDummy", "allowUnsafeAccess" : true }]
+},
+{
   "name":"SimpleContentObject",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
