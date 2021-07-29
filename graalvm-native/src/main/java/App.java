@@ -3,8 +3,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 import one.microstream.memory.android.MicroStreamAndroidAdapter;
-import one.microstream.storage.types.EmbeddedStorage;
-import one.microstream.storage.types.EmbeddedStorageManager;
+import one.microstream.reference.LazyReferenceManager;
+import one.microstream.storage.embedded.types.EmbeddedStorage;
+import one.microstream.storage.embedded.types.EmbeddedStorageManager;
 
 public class App
 {
@@ -42,6 +43,7 @@ public class App
 	{
 		System.out.println("-> shutdown microstream");
 		storage.shutdown();
+		LazyReferenceManager.get().stop();
 	}
 
 	public static EmbeddedStorageManager startMicrostream()

@@ -1,6 +1,6 @@
 [
 {
-  "name":"one.microstream.afs.nio.NioReadableFile$Default[]"
+  "name":"one.microstream.afs.nio.types.NioReadableFile$Default[]"
 },
 {
   "name":"one.microstream.memory.sun.JdkInternals$ObjectHeaderSizeDummy",
@@ -481,7 +481,7 @@
   "allDeclaredMethods":true
 },
 {
-  "name":"one.microstream.java.net.BinaryHandlerInetSocketAddress",
+  "name":"one.microstream.persistence.binary.java.net.BinaryHandlerInetSocketAddress",
   "allDeclaredFields":true
 },
 {
@@ -509,6 +509,13 @@
 },
 {
   "name":"one.microstream.reference.Lazy$Default",
+  "allDeclaredConstructors" : true,
+  "allPublicConstructors" : true,
+  "allDeclaredMethods" : true,
+  "allPublicMethods" : true,
+  "allDeclaredClasses" : true,
+  "allPublicClasses" : true,    
+  "allDeclaredFields":true,    
   "allDeclaredMethods":true
 },
 {

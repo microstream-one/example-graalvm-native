@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>one.microstream</groupId>
   <artifactId>graalvm-native</artifactId>
-  <version>04.00.00-MS-GA</version>
+  <version>05.00.02-MS-GA</version>
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -11,18 +11,11 @@
 		<maven.compiler.source>11</maven.compiler.source>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>microstream-releases</id>
-			<url>https://repo.microstream.one/repository/maven-public</url>
-		</repository>
-	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>one.microstream</groupId>
-			<artifactId>storage.embedded</artifactId>
-			<version>04.00.00-MS-GA</version>
+			<artifactId>microstream-storage-embedded</artifactId>
+			<version>05.00.02-MS-GA</version>
 		</dependency>
 	</dependencies>
 
