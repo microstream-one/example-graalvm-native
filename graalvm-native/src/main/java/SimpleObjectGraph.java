@@ -33,7 +33,7 @@ public class SimpleObjectGraph
 	@Override
 	public String toString()
 	{
-		final DateFormat df = new SimpleDateFormat();
+		final DateFormat df = new SimpleDateFormat("yyyyy-mm-dd hh:mm:ss");
 		String retVal = new String();
 
 		retVal += "name: " + this.name + '\n';

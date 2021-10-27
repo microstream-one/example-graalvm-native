@@ -9,11 +9,6 @@ import one.microstream.storage.embedded.types.EmbeddedStorageManager;
 
 public class App
 {
-	static
-	{
-		MicroStreamAndroidAdapter.setupFull();
-	}
-
 	public static void main(final String[] args)
 	{
 		final EmbeddedStorageManager storage = startMicrostream();

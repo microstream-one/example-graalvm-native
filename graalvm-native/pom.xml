@@ -2,20 +2,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>one.microstream</groupId>
   <artifactId>graalvm-native</artifactId>
-  <version>05.00.02-MS-GA</version>
+  <version>06.00.00-MS-GA</version>
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>11</java.version>
 		<maven.compiler.target>11</maven.compiler.target>
 		<maven.compiler.source>11</maven.compiler.source>
+		<microstream.version>06.00.00-MS-GA</microstream.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>one.microstream</groupId>
 			<artifactId>microstream-storage-embedded</artifactId>
-			<version>05.00.02-MS-GA</version>
+			<version>${microstream.version}</version>
 		</dependency>
 	</dependencies>
 
